@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Face Recognition</title>
+</head>
+<body>
+    <h2>Face Recognition Demo</h2>
+    <video id="video" autoplay playsinline width="480" height="360"></video>
+    <button onclick="capture()">Identify</button>
+    <p id="result"></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
