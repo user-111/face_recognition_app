@@ -1,0 +1,7 @@
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+dlib = { version = "19.24.2", source = "pypi" }
+face-recognition = "^1.3.0"
+flask = "*"
+opencv-python = "*"
+numpy = "*"
