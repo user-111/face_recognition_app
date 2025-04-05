@@ -1,5 +1,6 @@
+# Use pre-built binaries wherever possible
+dlib==19.24.2 --only-binary :all:
+face_recognition==1.3.0
 Flask
-face_recognition
-numpy
 opencv-python
-waitress
+numpy
